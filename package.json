@@ -20,7 +20,7 @@
     "cds": {
 
         "build": {
-            
+
             "tasks": [
                 {
                     "for": "hana",
@@ -32,6 +32,7 @@
             ]
         },
         "requires": {
+            
             "db": {
                 "kind": "hana-cloud"
             }
